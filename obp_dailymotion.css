@@ -1,3 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Strait');
+
+body {
+    margin: 0;
+    padding: 15px;
+    background-color: #fcfcfc;
+    font-family: 'Strait', sans-serif;
+    color: #444;
+}
+
+img {
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.pager-container {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    margin-bottom: 20px;
+}
+
+.pager {
+    margin: 0;
+}
+
+.pager li > a {
+    border: none !important;
+    padding: 8px 14px;
+    transition: all 0.3s;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #333 !important;
+    font-weight: bold;
+}
+
+.btn-view {
+    background-color: #ebf3ff !important;
+    border-radius: 8px !important;
+}
+
+.btn-like {
+    background-color: #e8fadf !important;
+    border-radius: 8px !important;
+    margin-left: 8px !important;
+}
+
+.btn-dislike {
+    background-color: #ffe5e5 !important;
+    border-radius: 8px !important;
+    margin-left: 8px !important;
+}
+
+.badge {
+    background-color: rgba(0,0,0,0.08) !important;
+    color: #000 !important;
+    font-weight: bold;
+    margin-left: 5px;
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+h3 {
+    color: #222;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.content-text {
+    line-height: 1.6;
+    font-size: 16px;
+    color: #444;
+}
+
+.btn-back {
+    background-color: #f1f1f1;
+    border: none;
+    color: #333;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
 .video-container { 
 position:relative;
 padding-bottom:56.25%;
